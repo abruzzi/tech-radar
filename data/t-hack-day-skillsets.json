@@ -1,0 +1,494 @@
+{
+  "count": 29,
+  "skillset": [
+    {
+      "category": "platform",
+      "items": [
+        {
+          "name": "Hybrid App",
+          "expert": 2,
+          "familiar": 1,
+          "learning": 2,
+          "willing": 13,
+          "unkonwn": 4
+        },
+        {
+          "name": "Database",
+          "expert": 8,
+          "familiar": 10,
+          "learning": 4,
+          "willing": 1,
+          "unkonwn": 0
+        },
+        {
+          "name": "UNIX/Linux",
+          "expert": 13,
+          "familiar": 8,
+          "learning": 3,
+          "willing": 3,
+          "unkonwn": 0
+        },
+        {
+          "name": "iOS",
+          "expert": 6,
+          "familiar": 6,
+          "learning": 2,
+          "willing": 13,
+          "unkonwn": 0
+        },
+        {
+          "name": "Android",
+          "expert": 8,
+          "familiar": 7,
+          "learning": 3,
+          "willing": 8,
+          "unkonwn": 0
+        },
+        {
+          "name": "Windows Phone",
+          "expert": 0,
+          "familiar": 7,
+          "learning": 0,
+          "willing": 9,
+          "unkonwn": 1
+        },
+        {
+          "name": "NodeJS",
+          "expert": 2,
+          "familiar": 11,
+          "learning": 3,
+          "willing": 7,
+          "unkonwn": 1
+        },
+        {
+          "name": "Responsive Design",
+          "expert": 7,
+          "familiar": 11,
+          "learning": 0,
+          "willing": 4,
+          "unkonwn": 1
+        }
+      ]
+    },
+    {
+      "category": "technique",
+      "items": [
+        {
+          "name": "Virtualization",
+          "expert": 0,
+          "familiar": 7,
+          "learning": 3,
+          "willing": 7,
+          "unkonwn": 1
+        },
+        {
+          "name": "SOA/Web Service",
+          "expert": 5,
+          "familiar": 10,
+          "learning": 3,
+          "willing": 4,
+          "unkonwn": 0
+        },
+        {
+          "name": "Hardware development",
+          "expert": 1,
+          "familiar": 4,
+          "learning": 0,
+          "willing": 12,
+          "unkonwn": 3
+        },
+        {
+          "name": "Big data",
+          "expert": 0,
+          "familiar": 2,
+          "learning": 2,
+          "willing": 16,
+          "unkonwn": 0
+        },
+        {
+          "name": "Machine learning",
+          "expert": 0,
+          "familiar": 4,
+          "learning": 0,
+          "willing": 15,
+          "unkonwn": 2
+        },
+        {
+          "name": "Security policy",
+          "expert": 0,
+          "familiar": 7,
+          "learning": 1,
+          "willing": 11,
+          "unkonwn": 2
+        },
+        {
+          "name": "Automated testing",
+          "expert": 7,
+          "familiar": 12,
+          "learning": 3,
+          "willing": 3,
+          "unkonwn": 0
+        },
+        {
+          "name": "Performance testing",
+          "expert": 1,
+          "familiar": 9,
+          "learning": 2,
+          "willing": 7,
+          "unkonwn": 1
+        },
+        {
+          "name": "Continuous integration",
+          "expert": 8,
+          "familiar": 13,
+          "learning": 4,
+          "willing": 5,
+          "unkonwn": 0
+        },
+        {
+          "name": "Continuous delivery",
+          "expert": 8,
+          "familiar": 12,
+          "learning": 4,
+          "willing": 4,
+          "unkonwn": 0
+        },
+        {
+          "name": "User experience design",
+          "expert": 3,
+          "familiar": 6,
+          "learning": 3,
+          "willing": 10,
+          "unkonwn": 0
+        },
+        {
+          "name": "Deployment",
+          "expert": 2,
+          "familiar": 12,
+          "learning": 5,
+          "willing": 4,
+          "unkonwn": 0
+        },
+        {
+          "name": "DevOps",
+          "expert": 2,
+          "familiar": 10,
+          "learning": 3,
+          "willing": 8,
+          "unkonwn": 0
+        },
+        {
+          "name": "Enterprise application architecture",
+          "expert": 3,
+          "familiar": 11,
+          "learning": 3,
+          "willing": 6,
+          "unkonwn": 0
+        }
+      ]
+    },
+    {
+      "category": "tools",
+      "items": [
+        {
+          "name": "AWS",
+          "expert": 2,
+          "familiar": 9,
+          "learning": 1,
+          "willing": 10,
+          "unkonwn": 1
+        },
+        {
+          "name": "Bamboo",
+          "expert": 3,
+          "familiar": 13,
+          "learning": 4,
+          "willing": 4,
+          "unkonwn": 2
+        },
+        {
+          "name": "Jenkins",
+          "expert": 9,
+          "familiar": 14,
+          "learning": 5,
+          "willing": 2,
+          "unkonwn": 0
+        },
+        {
+          "name": "Git",
+          "expert": 21,
+          "familiar": 8,
+          "learning": 1,
+          "willing": 1,
+          "unkonwn": 0
+        },
+        {
+          "name": "Puppet",
+          "expert": 2,
+          "familiar": 2,
+          "learning": 0,
+          "willing": 6,
+          "unkonwn": 10
+        },
+        {
+          "name": "Command Line",
+          "expert": 14,
+          "familiar": 10,
+          "learning": 2,
+          "willing": 2,
+          "unkonwn": 0
+        },
+        {
+          "name": "Chef",
+          "expert": 2,
+          "familiar": 2,
+          "learning": 0,
+          "willing": 4,
+          "unkonwn": 11
+        },
+        {
+          "name": "Grunt/Gulp",
+          "expert": 3,
+          "familiar": 7,
+          "learning": 2,
+          "willing": 2,
+          "unkonwn": 6
+        },
+        {
+          "name": "Maven/Gradle",
+          "expert": 12,
+          "familiar": 12,
+          "learning": 2,
+          "willing": 1,
+          "unkonwn": 0
+        },
+        {
+          "name": "D3.js",
+          "expert": 0,
+          "familiar": 3,
+          "learning": 0,
+          "willing": 7,
+          "unkonwn": 8
+        },
+        {
+          "name": "Jasmine",
+          "expert": 6,
+          "familiar": 11,
+          "learning": 3,
+          "willing": 2,
+          "unkonwn": 5
+        },
+        {
+          "name": "Hadoop",
+          "expert": 0,
+          "familiar": 3,
+          "learning": 1,
+          "willing": 14,
+          "unkonwn": 1
+        },
+        {
+          "name": "NUnit",
+          "expert": 2,
+          "familiar": 2,
+          "learning": 1,
+          "willing": 6,
+          "unkonwn": 10
+        },
+        {
+          "name": "Spark",
+          "expert": 0,
+          "familiar": 1,
+          "learning": 0,
+          "willing": 9,
+          "unkonwn": 9
+        }
+      ]
+    },
+    {
+      "category": "language",
+      "items": [
+        {
+          "name": "JavaScript",
+          "expert": 11,
+          "familiar": 10,
+          "learning": 5,
+          "willing": 5,
+          "unkonwn": 0
+        },
+        {
+          "name": "Java",
+          "expert": 17,
+          "familiar": 6,
+          "learning": 4,
+          "willing": 1,
+          "unkonwn": 0
+        },
+        {
+          "name": "C/C++",
+          "expert": 8,
+          "familiar": 13,
+          "learning": 2,
+          "willing": 2,
+          "unkonwn": 0
+        },
+        {
+          "name": "PHP",
+          "expert": 1,
+          "familiar": 6,
+          "learning": 1,
+          "willing": 11,
+          "unkonwn": 1
+        },
+        {
+          "name": "Ruby",
+          "expert": 4,
+          "familiar": 10,
+          "learning": 8,
+          "willing": 9,
+          "unkonwn": 0
+        },
+        {
+          "name": "Python",
+          "expert": 2,
+          "familiar": 7,
+          "learning": 2,
+          "willing": 11,
+          "unkonwn": 0
+        },
+        {
+          "name": "Perl",
+          "expert": 1,
+          "familiar": 4,
+          "learning": 1,
+          "willing": 12,
+          "unkonwn": 2
+        },
+        {
+          "name": "Objective-C",
+          "expert": 5,
+          "familiar": 3,
+          "learning": 1,
+          "willing": 14,
+          "unkonwn": 0
+        },
+        {
+          "name": "Swift",
+          "expert": 1,
+          "familiar": 5,
+          "learning": 2,
+          "willing": 18,
+          "unkonwn": 2
+        },
+        {
+          "name": "HTML",
+          "expert": 14,
+          "familiar": 9,
+          "learning": 5,
+          "willing": 2,
+          "unkonwn": 0
+        },
+        {
+          "name": "CSS/SCSS/LESS",
+          "expert": 11,
+          "familiar": 13,
+          "learning": 4,
+          "willing": 2,
+          "unkonwn": 0
+        },
+        {
+          "name": "Bash",
+          "expert": 7,
+          "familiar": 9,
+          "learning": 3,
+          "willing": 5,
+          "unkonwn": 1
+        },
+        {
+          "name": "Go",
+          "expert": 0,
+          "familiar": 1,
+          "learning": 2,
+          "willing": 15,
+          "unkonwn": 3
+        },
+        {
+          "name": "PowerShell",
+          "expert": 1,
+          "familiar": 5,
+          "learning": 0,
+          "willing": 9,
+          "unkonwn": 7
+        },
+        {
+          "name": "Scala",
+          "expert": 1,
+          "familiar": 3,
+          "learning": 2,
+          "willing": 14,
+          "unkonwn": 0
+        }
+      ]
+    },
+    {
+      "category": "framework",
+      "items": [
+        {
+          "name": "Spring MVC",
+          "expert": 13,
+          "familiar": 8,
+          "learning": 1,
+          "willing": 3,
+          "unkonwn": 1
+        },
+        {
+          "name": "Spring boot",
+          "expert": 1,
+          "familiar": 4,
+          "learning": 1,
+          "willing": 4,
+          "unkonwn": 11
+        },
+        {
+          "name": "Angular.js",
+          "expert": 5,
+          "familiar": 8,
+          "learning": 4,
+          "willing": 8,
+          "unkonwn": 0
+        },
+        {
+          "name": "React.js",
+          "expert": 1,
+          "familiar": 3,
+          "learning": 1,
+          "willing": 13,
+          "unkonwn": 5
+        },
+        {
+          "name": "Backbone.js",
+          "expert": 1,
+          "familiar": 4,
+          "learning": 0,
+          "willing": 10,
+          "unkonwn": 6
+        },
+        {
+          "name": "Rails",
+          "expert": 2,
+          "familiar": 11,
+          "learning": 5,
+          "willing": 9,
+          "unkonwn": 1
+        },
+        {
+          "name": "Sinatra",
+          "expert": 2,
+          "familiar": 4,
+          "learning": 0,
+          "willing": 6,
+          "unkonwn": 9
+        }
+      ]
+    }
+  ]
+}
