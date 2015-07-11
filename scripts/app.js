@@ -20,10 +20,10 @@ $(function () {
         });
     }
 
-    $.getJSON('data/t-hack-day-skillsets.json', function(data) {
+    function generateOptions(data, target) {
         var total = data.count;
 
-        var platform = _.first(_.where(data.skillset, {category: "platform"}));
+        var platform = _.first(_.where(data.skillset, {category: target}));
         var items = platform.items;
 
         var options = {
@@ -88,10 +88,11 @@ $(function () {
             }
         }
 
+        return options;
+    }
 
+    $.getJSON('data/t-hack-day-skillsets.json', function(data) {
+        var options = generateOptions(data, "platform");
         $('#platform').highcharts(options); 
-
     });
-    // Parse the data from an inline table using the Highcharts Data plugin
-
 });
