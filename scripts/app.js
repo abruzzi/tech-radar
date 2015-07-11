@@ -2,43 +2,33 @@ $(function () {
 
     function retreive(items, key, total) {
         return _.map(_.pluck(items, key), function(item) {
-            return item/total * 100;
+            return _.round(item/total, 2) * 100;
         })
+    }
+
+    function generateSeries(items, total) {
+        var categories = ['expert', 'familiar', 'learning', 'willing', 'unkonwn'];
+
+        console.log(categories);
+
+        return _.map(categories, function(category) {
+            return {
+                name: _.capitalize(category),
+                data: retreive(items, category, total),
+                pointPlacement: 'on'
+            }
+        });
     }
 
     $.getJSON('data/t-hack-day-skillsets.json', function(data) {
         var total = data.count;
 
-        window.data = data;
-
         var platform = _.first(_.where(data.skillset, {category: "platform"}));
         var items = platform.items;
-        console.log(items);
 
         var options = {
 
-            series: [{
-                name: "expert",
-                data: retreive(platform.items, "expert", total),
-                pointPlacement: 'on'
-            }, {
-                name: "familiar",
-                data: retreive(platform.items, "familiar", total),
-                pointPlacement: 'on'
-            }, {
-                name: "learning",
-                data: retreive(platform.items, "learning", total),
-                pointPlacement: 'on'
-            }, {
-                name: "willing",
-                data: retreive(platform.items, "willing", total),
-                pointPlacement: 'on'
-            }, {
-                name: "unkonwn",
-                data: retreive(platform.items, "unkonwn", total),
-                pointPlacement: 'on'
-            }
-            ],
+            series: generateSeries(items, total),
 
             chart: {
                 polar: true,
@@ -46,7 +36,7 @@ $(function () {
             },
 
             title: {
-                text: 'ThoughtWorker team skillset'
+                text: 'ThoughtWorks Team Skillset'
             },
 
             subtitle: {
@@ -66,7 +56,7 @@ $(function () {
 
             xAxis: {
                 tickmarkPlacement: 'on',
-                categories: _.pluck(platform.items, "name")
+                categories: _.pluck(items, "name")
             },
 
             yAxis: {
