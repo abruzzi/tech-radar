@@ -1,0 +1,22 @@
+@import "compass/reset";
+@import "compass/css3";
+
+body {
+	font-size: 62.5%;
+	font-family: "Gravur","GravurCondensed-Regular","Helvetica Neue","Arial Narrow",Helvetica,Arial,sans-serif;
+}
+
+.container {
+	width: 100%;
+	background: url('/images/sand.png');
+	overflow: hidden;
+
+	ul {
+		li {
+			float: left;
+			width: 50%;
+			box-sizing: border-box;
+			padding: 4em 0;
+		}
+	}
+}

@@ -36,7 +36,7 @@ $(function () {
             },
 
             title: {
-                text: 'ThoughtWorks Team Skillset'
+                text: 'ThoughtWorks Team Skillset - ' + _.capitalize(target)
             },
 
             subtitle: {
@@ -91,8 +91,14 @@ $(function () {
         return options;
     }
 
+    function generateChart(data, category) {
+        var options = generateOptions(data, category);
+        $('#'+category).highcharts(options);
+    }
+
     $.getJSON('data/t-hack-day-skillsets.json', function(data) {
-        var options = generateOptions(data, "platform");
-        $('#platform').highcharts(options); 
+        ['platform', 'technique', 'tools', 'language', 'framework'].forEach(function(category) {
+            generateChart(data, category);
+        });
     });
 });
