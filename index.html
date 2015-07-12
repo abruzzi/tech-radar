@@ -11,32 +11,47 @@
 </head>
 <body>
 	<div class="container">
-		<ul>
-		    <li class="polar-chart">
-		        <div id="platform"></div>
-		    </li>
-		    <li class="polar-chart">
-		        <div id="technique"></div>
-		    </li>
-		    <li class="polar-chart">
-		        <div id="tools"></div>
-		    </li>
-		    <li class="polar-chart">
-		        <div id="language"></div>
-		    </li>
-		    <li class="polar-chart">
-		        <div id="framework"></div>
-		    </li>
-		</ul>
-	</div>	
 
+		<section class="general">
+			<h2>Overview of all skillset</h2>
+
+			<div id="overview"></div>
+		</section>
+		
+
+		<section class="detail">
+			<h2>Detail view of each skillset</h2>
+
+			<div id="platform" class="polar-chart"></div>
+			<div id="technique" class="polar-chart"></div>
+			<div id="tools" class="polar-chart"></div>
+			<div id="language" class="polar-chart"></div>
+			<div id="framework" class="polar-chart"></div>	
+			
+		</section>
+
+		<section class="summary">
+			
+		</section>
+	</div>
+
+	<style>
+	text {
+  		font: 10px 'Open Sans', sans-serif;
+	}
+	</style>
 	<script src="scripts/libs/jquery/dist/jquery.min.js"></script>
 	<script src="scripts/libs/lodash/lodash.min.js"></script>
 	
 	<script src="scripts/libs/hightcharts/highcharts.js"></script>
 	<script src="scripts/libs/hightcharts/highcharts-more.js"></script>
 
-	<script src="scripts/libs/hightcharts/themes/sand-signika.js"></script> 	
+	<script src="scripts/libs/d3/d3.min.js"></script>
+	
+	<!-- // <script src="scripts/libs/hightcharts/themes/sand-signika.js"></script> 	 -->
+	
+	<script src="scripts/bubble.js"></script>
+	<script src="scripts/radar.js"></script>
 	<script src="scripts/app.js"></script>
 </body>
 </html>

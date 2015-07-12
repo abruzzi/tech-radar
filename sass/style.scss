@@ -7,9 +7,35 @@ body {
 }
 
 .container {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+
 	width: 100%;
-	background: url('/images/sand.png');
+	
 	overflow: hidden;
+
+	.general {
+		background: url('/images/sand.png');	
+		padding: 10em 0;
+	}
+
+	.summary {
+		background: url('/images/sand.png');	
+		padding: 10em 0;	
+	}
+
+	h2 {
+		font-size: 5em;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding: 1em 0;
+	}
+
+	#overview {
+		padding: 1em;
+		margin: 0 10em;
+		border: 1px solid #cccccc;
+	}
 
 	ul {
 		li {
@@ -19,4 +45,9 @@ body {
 			padding: 4em 0;
 		}
 	}
+
+	.polar-chart {
+		padding: 4em 0;
+	}
+
 }

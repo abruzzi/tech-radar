@@ -71,14 +71,42 @@ body {
 
 /* line 9, ../sass/style.scss */
 .container {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
   width: 100%;
-  background: url("/images/sand.png");
   overflow: hidden;
 }
-/* line 15, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
+.container .general {
+  background: url("/images/sand.png");
+  padding: 10em 0;
+}
+/* line 22, ../sass/style.scss */
+.container .summary {
+  background: url("/images/sand.png");
+  padding: 10em 0;
+}
+/* line 27, ../sass/style.scss */
+.container h2 {
+  font-size: 5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+/* line 34, ../sass/style.scss */
+.container #overview {
+  padding: 1em;
+  margin: 0 10em;
+  border: 1px solid #cccccc;
+}
+/* line 41, ../sass/style.scss */
 .container ul li {
   float: left;
   width: 50%;
   box-sizing: border-box;
+  padding: 4em 0;
+}
+/* line 49, ../sass/style.scss */
+.container .polar-chart {
   padding: 4em 0;
 }
