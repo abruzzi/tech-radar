@@ -1,0 +1,29 @@
+{
+  "name": "tech-polar",
+  "version": "0.1.0",
+  "homepage": "https://github.com/abruzzi/tech-radar",
+  "authors": [
+    "Qiu Juntao <juntao.qiu@gmail.com>"
+  ],
+  "description": "Tech polar used in xi'an office",
+  "keywords": [
+    "tech",
+    "polar",
+    "radar"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "scripts/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hightcharts": "~4.1.7",
+    "d3": "~3.5.6",
+    "lodash": "~3.10.0",
+    "jquery": "~2.1.4"
+  }
+}
